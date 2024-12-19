@@ -51,7 +51,7 @@
         else {
           document.getElementById("search-results").innerHTML = "ERROR ๔๐๔ !!!!";
         }
-      });
+      })
       
       function search(value) {
         if (value == "0") {
@@ -385,4 +385,4 @@
             }
           }
         }
-      });
+      })
