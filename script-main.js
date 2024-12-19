@@ -82,7 +82,7 @@
         }
       }
       
-      document.forms["searchForm"].addEventListener("submit", async e => {
+      document.forms["searchForm"].onsubmit = async e => {
         e.preventDefault();
 
         const header = document.getElementById("header");
